@@ -9,10 +9,18 @@
 </head>
 <body>
     <div class='code-containers'>
-        <textarea id='code-input'></textarea>
+        <textarea id='code-input'>
+function reverseString(str) {
+    let reversed = ''
+    for(let i=0;i<str.length; i++) {
+        reversed = str[i] + reversed
+    }
+    return reversed
+}
+        </textarea>
     </div>
     <div class='code-containers'>
-        <textarea disabled id='display-output'>textarea</textarea>
+        <div id='display-output'></div>
     </div>
     <button id='run-code'>Run</button>
 </body>
