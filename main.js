@@ -20,5 +20,6 @@ console.log(elCodeOutput);
 console.log(elCodeInput);
 
 function mergeConflict() {
-    return 'Incorrect Value';
+
+    return 'Value';
 }
