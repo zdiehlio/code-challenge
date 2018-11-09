@@ -1,6 +1,8 @@
 let elCodeInput = document.getElementById('code-input');
 let elCodeOutput = document.getElementById('display-output');
-let elRunBadCode = document.getElementById('run-code');
+
+let elRunGoodCode = document.getElementById('run-code');
+
 
 let value = elCodeInput.value;
 let correct;
